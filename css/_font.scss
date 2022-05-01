@@ -1,0 +1,22 @@
+@mixin title_font{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+@mixin number_font{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 800;
+    font-size: 150px;
+    text-align: center;
+
+}
+
+@mixin button_font{
+    font-family: 'Noto Sans Display', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    letter-spacing: 1px;
+}

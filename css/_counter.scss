@@ -1,0 +1,57 @@
+.container{
+
+    @include flex_col_cent;
+
+
+    h1{
+        @include title_font;
+    }
+
+    #value{
+        @include number_font;
+        }
+
+    .button_container{
+
+        @include flex_row_cent;
+
+        .btn{
+
+            @include button_font;
+            @include btn_style;
+
+        }
+
+        .btn:hover{
+            @include btn_style_hover;
+        }
+
+        .decrease{
+
+        }
+
+        .decrease:active{
+            @include btn_dec_active;
+        }
+
+        .reset{
+
+        }
+
+        .reset:active{
+            @include btn_reset_active;
+        }
+
+        .increase{
+
+        }
+
+        .increase:active{
+            @include btn_inc_active;
+        }
+
+
+    }
+
+
+}

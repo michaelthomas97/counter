@@ -1,0 +1,46 @@
+@mixin flex_row_cent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex_col_cent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin btn_style{
+    margin: 30px 30px;
+    background: transparent;
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 20px 40px;
+}
+
+@mixin btn_style_hover{
+    opacity: 0.6;
+}
+
+@mixin btn_dec_active{
+    background: red;
+    opacity: 10;
+    color: white;
+    border: 3px solid white;
+}
+
+@mixin btn_reset_active{
+    background: black;
+    opacity: 10;
+    color: white;
+    border: 3px solid white;
+}
+
+@mixin btn_inc_active{
+    background: green;
+    opacity: 10;
+    color: white;
+    border: 3px solid white;
+}

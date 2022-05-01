@@ -1,0 +1,84 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container h1 {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.container #value {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: 800;
+  font-size: 150px;
+  text-align: center;
+}
+
+.container .button_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .button_container .btn {
+  font-family: 'Noto Sans Display', sans-serif;
+  font-weight: 200;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin: 30px 30px;
+  background: transparent;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+
+.container .button_container .btn:hover {
+  opacity: 0.6;
+}
+
+.container .button_container .decrease:active {
+  background: red;
+  opacity: 10;
+  color: white;
+  border: 3px solid white;
+}
+
+.container .button_container .reset:active {
+  background: black;
+  opacity: 10;
+  color: white;
+  border: 3px solid white;
+}
+
+.container .button_container .increase:active {
+  background: green;
+  opacity: 10;
+  color: white;
+  border: 3px solid white;
+}
+/*# sourceMappingURL=style.css.map */
